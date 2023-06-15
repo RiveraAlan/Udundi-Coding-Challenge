@@ -40,6 +40,12 @@
       }
   }
 
+  @media only screen and (max-device-width: 380px) {
+      .menu__text {
+          margin-top: -45%;
+      }
+  }
+
   .hero__text {
       opacity: 0;
       transition: 0.3s;
